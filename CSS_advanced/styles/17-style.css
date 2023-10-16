@@ -435,6 +435,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+.footer {
+    padding-top: var(--footer-padding);
+    padding-bottom: var(--footer-padding);
+    padding-left: var(--footer-padding);
+    padding-right: var(--footer-padding);
+}
+
 .container {
     width: 960px;
     margin-left: auto;
@@ -470,11 +477,4 @@ h1, h2, h3, h4, h5, h6 {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-}
-
-.footer {
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
-    padding-left: var(--footer-padding);
-    padding-right: var(--footer-padding);
 }
