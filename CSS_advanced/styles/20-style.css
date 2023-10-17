@@ -487,10 +487,10 @@ ul.row {
   text-align: right;
 }
 
-.row::before {
+.row::after {
   content: none;
   display: table;
-  clear: none;
+  float: none;
 }
 
 :root {
